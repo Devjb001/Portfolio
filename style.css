@@ -691,3 +691,12 @@ li a:hover{
     form button:hover{
         filter: drop-shadow(rgba(0, 178, 255, 0.35) 0px 10px 30px);
     }
+
+    @media (max-width:425px) {
+        .input-box .input-field{
+            width:100%;
+        }
+        form .input-box{
+           flex-direction: column;
+        }
+    }
